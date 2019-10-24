@@ -1,0 +1,17 @@
+
+server0 ansible_user=root
+server1 ansible_user=root
+server2 ansible_user=root
+server3 ansible_user=root
+
+[lb]
+server0
+
+[blog]
+server1
+server2
+
+[db]
+server3
+
+
